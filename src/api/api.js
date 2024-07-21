@@ -33,7 +33,7 @@ export const signupGoogleLogin = async () => {
 
 export const handleGoogleCallback = async (code) => {
   try {
-    const callbackurl = `${url}/auth/google/callback?code=${code}`;
+    const callbackurl = `${url}auth/google/callback?code=${code}`;
     const res = await axios.get(callbackurl);
     return res;
   } catch (error) {
