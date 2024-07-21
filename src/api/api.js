@@ -1,6 +1,6 @@
 import axios from "axios";
 import { config } from "../config/config";
-const url = "https://vooshbe.onrender.com";
+const url = "https://vooshbe.onrender.com/";
 
 export const signupUser = async (data) => {
   try {
@@ -33,7 +33,7 @@ export const signupGoogleLogin = async () => {
 
 export const handleGoogleCallback = async (code) => {
   try {
-    const callbackurl = `http://localhost:8080/auth/google/callback?code=${code}`;
+    const callbackurl = `${url}/auth/google/callback?code=${code}`;
     const res = await axios.get(callbackurl);
     return res;
   } catch (error) {
