@@ -1,6 +1,6 @@
 import axios from "axios";
 import { config } from "../config/config";
-const url = "http://localhost:8080/";
+const url = "https://vooshbe.onrender.com";
 
 export const signupUser = async (data) => {
   try {
