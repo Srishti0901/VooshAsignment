@@ -1,0 +1,43 @@
+.signupContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formContainer {
+  align-content: center;
+}
+
+.linkRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+.linkSpan {
+  margin-left: 5px;
+}
+
+.googleSignupRow {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.googleSignupButton {
+  padding: 5px !important;
+  width: auto !important;
+}
+
+.googleSignupText {
+  margin-left: 3px !important;
+  font-weight: 500 !important;
+}
+
+.errorMessage {
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

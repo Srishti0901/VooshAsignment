@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.ReactModal__Overlay {
+  background-color: #71717a !important;
+}
+
+.ReactModal__Content {
+  inset: 100px !important;
+  margin: 20px 300px !important;
+}
+
+.form-control {
+  border-color: #a1a1aaa6 !important;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .ReactModal__Content {
+    inset: 100px !important;
+    margin: 20px 200px !important;
+  }
+}
+
+@media (min-width: 540px) and (max-width: 992px) {
+  .ReactModal__Content {
+    inset: 60px !important;
+    margin: 20px 50px !important;
+  }
+}
+
+@media (max-width: 540px) {
+  .ReactModal__Content {
+    inset: 20px !important;
+    margin: 20px 0px !important;
+  }
+}

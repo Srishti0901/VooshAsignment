@@ -1,0 +1,166 @@
+.img img {
+  width: 40px;
+  height: 40px;
+}
+.order .status {
+  background: #fff1de;
+  color: #494949;
+  padding: 3px 10px;
+  border-radius: 18px;
+}
+.done .status {
+  background: #c8ebdd;
+  color: #494949;
+  padding: 3px 10px;
+  border-radius: 18px;
+}
+.pending .status {
+  background: #cfd8f0;
+  color: #494949;
+  padding: 3px 10px;
+  border-radius: 18px;
+}
+.waiting .status {
+  background: #eac8d7;
+  color: #494949;
+  padding: 3px 10px;
+  border-radius: 18px;
+}
+.homecard {
+  font-family: sans-serif;
+  text-align: center;
+  background: #fbfcfd;
+  height: 100vh;
+  padding: 40px 0px;
+}
+
+h4 {
+  font-family: sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 0px;
+  color: #416183;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title {
+  display: flex;
+  width: 100%;
+  margin: 10px 0px;
+  background-color: #0d6efd;
+  color: white;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.drag_column {
+  width: 100%;
+  float: left;
+  display: flex;
+  padding: 10px;
+}
+.drag_row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.smallbox {
+  width: 30%;
+  background: #f7f8fa;
+  height: max-content;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  max-height: 550px;
+  overflow-y: auto;
+}
+
+.smallbox::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+/* .smallbox::-webkit-scrollbar-thumb {
+  background: #ff0000;
+} */
+
+.add_card_message {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px dashed #ccc;
+  margin: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.task {
+  border: 1px solid white;
+  margin: 10px;
+  box-shadow: 1px 3px 10px gray;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+.input:focus {
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.topbar {
+  display: flex;
+  align-items: start;
+  margin: 10px;
+}
+
+.addTaskButton {
+  padding: 5px 40px;
+}
+
+.searchSortContainer {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.searchContainer {
+  font-weight: 500;
+}
+
+.searchInput {
+  margin-left: 6px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+.sortContainer {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.dropdownToggle {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  padding: 5px;
+  margin-left: 6px;
+}

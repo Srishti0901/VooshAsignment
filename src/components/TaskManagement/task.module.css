@@ -1,0 +1,93 @@
+.title {
+  font-weight: 700;
+}
+
+.taskDetails {
+  margin: 15px 5px;
+}
+
+.taskTitle {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.taskDescription {
+  margin-bottom: 0;
+}
+
+.closeButton {
+  background: #f0f0f0;
+  border-color: #f0f0f0;
+  border-radius: 4px;
+  color: black;
+  margin-right: 10px;
+}
+
+.cancelButton {
+  background: #0d6efd;
+  border-color: #0d6efd;
+  margin: 0px 1px;
+  border-radius: 4px;
+  color: white;
+}
+
+.input {
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+.input:focus {
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.errorMessage {
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 100%;
+  float: left;
+  display: flex;
+  padding: 15px;
+  background-color: #a5c8ee !important;
+  box-shadow: 3px 1px 12px #0000001a;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  cursor: move;
+  flex-direction: column;
+}
+
+.card_left {
+  width: auto;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.status,
+.days,
+.time {
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+.card_right {
+  width: auto;
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.button {
+  margin: 0px 1px;
+  border-radius: 4px;
+  color: white;
+}

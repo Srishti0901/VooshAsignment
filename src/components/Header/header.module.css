@@ -1,0 +1,30 @@
+.navbar {
+  background-color: #0d6efd !important;
+  padding: 5px 20px !important;
+}
+
+.brandIcon {
+  height: 25px;
+  width: 25px;
+}
+
+.logoutLink {
+  padding: 5px 10px !important;
+  background: #e24040 !important;
+  border-radius: 3px !important;
+  color: white !important;
+  margin: 5px !important;
+}
+
+.loginsignupLink {
+  margin: 5px !important;
+  color: white !important;
+}
+
+.loginsignupLinkActive {
+  padding: 10px !important;
+  background: white !important;
+  border-radius: 5px !important;
+  color: #0d6efd !important;
+  margin: 5px !important;
+}
